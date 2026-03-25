@@ -72,11 +72,12 @@
 .CardProj {
   width: 330px;
   margin: 3;
-  
+  align-items: flex-start;
   border-radius: 20px;
   border: 2px solid #444;
   text-align: center;
   box-shadow: 0 0 8px #ccc;
+  margin-left: 2%;
 }
 
 .Footer{

@@ -53,13 +53,64 @@
   margin-top: 3%;
   margin-bottom: 3%;
   color: aliceblue;
+  word-spacing: 1px;
+  line-height: 32px;
 }
-
+/*mexer com os titulos*/
 .Titulo{
   margin-bottom: 3%;
   margin-top: 3%;
   color: rgb(54, 170, 224);
+  display: flex;
+  justify-content: center;
+  position: relative; 
+
 }
+
+
+.Titulo span {
+  position: relative;
+  display: inline-block;
+}
+
+:hover.Titulo {
+  
+  color: #1f7d99;
+  position: relative;
+  display: inline-block;
+}
+
+.Titulo span::after,
+.Titulo span::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #084b5c, #00ffff);
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.4s ease-out;
+}
+
+/* linha de baixo */
+.Titulo span::after {
+  bottom: -30px;
+  transform-origin: right;
+}
+
+
+/* linha de cima */
+.Titulo span::before {
+  top: -12px;
+  transform-origin: left;
+}
+
+/* HOVER */
+.Titulo span:hover::after,
+.Titulo span:hover::before {
+  transform: scaleX(1);
+}
+
 
 .LikeButton{
 
@@ -101,7 +152,6 @@
   border-radius: 15px;
   transition: all 0.5s ease;
 
-  
     
 }
 
@@ -144,4 +194,13 @@
   opacity: 1;
   transform: rotate(-45deg) translateY(100%);
 
+}
+
+.logobanner{
+
+  width: 90%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-left: 5%;
 }

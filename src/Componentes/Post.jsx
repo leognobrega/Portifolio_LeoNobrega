@@ -10,7 +10,7 @@ const [dislikes, setDislikes] = useState(0)
 
 return(
 <>
-      <h1 className="Titulo">Projetos Criados</h1>
+      <h1 className="Titulo"><span>Projetos Criados</span></h1>
 
       <div className="CardProj">
         <h2 className="NomeProj">GetMeet</h2>

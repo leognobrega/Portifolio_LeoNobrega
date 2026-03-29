@@ -8,7 +8,7 @@ import '../Estilos/estilos.css'
 function Contato () {
 
     return(
-        <><h1 className = "Titulo">Fale comigo!</h1><p> <h3 className = "Descricao">Estes são os meus principais meios de contato. Espero que possamos construir algo juntos =)</h3> </p>
+        <><h1 className = "Titulo"><span>Fale comigo!</span></h1><p> <h3 className = "Descricao">Estes são os meus principais meios de contato. Espero que possamos construir algo juntos =)</h3> </p>
         
 <div className="icons">
   <a href = "https://www.instagram.com/leognobrega/">

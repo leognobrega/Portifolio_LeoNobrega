@@ -31,7 +31,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root { /*design*/
     --text: #9ca3af;
     --text-h: #f3f4f6;
     --bg: #16171d;
@@ -54,14 +54,15 @@ body {
   margin: 0;
 }
 
-#root {
-  width: 1126px;
-  max-width: 100%;
+#root {/*layout*/
+  
+  max-width: 90%;
   margin: 0 auto;
   text-align: center;
   
   min-height: 100svh;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   
 }
@@ -109,3 +110,5 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+

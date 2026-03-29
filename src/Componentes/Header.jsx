@@ -1,7 +1,8 @@
+import logobanner from '../img/logolinear.png'
 function Header (){
 
     return(
-        <h1><bold>Leonardo Nóbrega - Dev em dev</bold></h1>
+        <img src= {logobanner}/>
         
     )
 

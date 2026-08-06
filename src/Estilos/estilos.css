@@ -136,17 +136,24 @@
   padding-bottom: 3%;
 }
 
+.ProjetosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  width: 100%;
+  margin-top: 24px;
+}
+
 .CardProj {
-  width: 330px;
-  margin: 3;
+  width: 100%;
+  max-width: 330px;
   align-items: flex-start;
   border-radius: 20px;
   border: 2px solid #444;
   text-align: center;
   box-shadow: 0 0 8px #ccc;
-  margin-left: 2%;
   justify-content: center;
-  align-items: center;
   position: relative;
   overflow: hidden;
   border-radius: 15px;

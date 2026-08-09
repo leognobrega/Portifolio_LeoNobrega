@@ -1,4 +1,4 @@
-import logobanner from '../img/logolinear.png'
+import logobanner from '../img/logo nova.png'
 function Header (){
 
     return(

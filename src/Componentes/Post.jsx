@@ -1,5 +1,6 @@
 import javaProjeto from '../img/java_projeto.png'
 import easyGestProjeto from '../img/EasyGest.png'
+import gmiHackaton from '../img/GMI-hackaton.png'
 import botaoLike from '../img/gostar.png'
 import botaoDislike from '../img/naogostar.png'
 import { useState } from 'react'
@@ -20,6 +21,12 @@ function Post (){
       href: 'https://github.com/leognobrega/EasyGest_Frontend',
       img: easyGestProjeto,
       detalhe: 'ERP desenvolvido para Projeto Interdisciplinar. Verifique o front e o back no Github',
+    },
+    {
+      nome: 'Sistema de Segurança GM',
+      href: 'https://github.com/leognobrega/hackaton2025',
+      img: gmiHackaton,
+      detalhe: 'Projeto GMI: sistema de segurança e automação desenvolvido em hackathon',
     },
   ]
 
